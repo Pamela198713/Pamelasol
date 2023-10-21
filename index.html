@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAMBACK</title>
+    <link rel="shortcut icon" href="./Img/logopamback.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <img src="img/logopamback.jpg" alt="Logo de la página"> <br>
+        <h1><strong>Cursos de Programación Inicial</strong></h1>
+    
+       <nav>
+         <ul>
+            <li><a href="#"><strong>Inicio</strong></a></li>
+            <li><a href="#nosotros"><strong>Nosotros</strong></a></li>
+            <li><a href="#cursos"><strong>Cursos</strong></a></li>
+            <li><a href="#contacto"><strong>Contacto</strong></a></li>
+            <li><a href="#comentarios"><strong>Comentarios</strong></a></li>
+         </ul>
+     </nav>
+    </header>
+    <!--main-->
+    <main>
+         <section class="nosotros" id="nosotros">
+            <h1><strong>Sobre Nosotros</strong></h1> 
+            <p>Somos una organización sin fines de lucro comprometida con la capacitación constante para jóvenes en el área de la programación.
+            Nuestra misión es empoderar a individuos y comunidades a través de la educación y capacitación en programación. Buscamos democratizar el acceso a las habilidades tecnológicas, fomentando la inclusión digital y la igualdad de oportunidades. </p>
+
+        </section>
+       
+        <div class="contenedor">
+            <img class="imagen" src="/Img/hombreprogramando.jpeg" alt="hombreprogramando">
+        </div><br>
+        
+         <div class="titulo-cursos">
+            <h1>Cursos</h1>
+        </div>
+        <section class="cursos" id="cursos">
+             
+            <div class="curso">
+                <h2>Curso de HTML Básico</h2>
+                <p>Este curso te enseñará los fundamentos de HTML.</p>
+            </div>
+            <div class="curso">
+                <h2>Curso de CSS Básico</h2>
+                <p>En este curso aprenderás a darle estilos a tus páginas.</p>
+            </div>
+            <div class="curso">
+                <h2>Curso de JAVA SCRIPT Básico</h2>
+                <p>Aprende los conceptos básicos lenguaje de programación ampliamente utilizado para codificar aplicaciones web</p>
+            </div>
+            <div class="curso">
+                <h2>Curso de Boostrap</h2>
+                <p>Este framework permite a los desarrolladores web construir páginas web responsives de una forma más rápida y sencilla. </p>
+            </div>
+            <div class="curso">
+                <h2>Curso de PAYTHON Básico</h2>
+                <p>Amplía tus conocimientos con este lenguaje de alto nivel de programación interpretado.</p>
+            </div>
+            <div class="curso">
+                <h2>Curso de GIT y GITHUB</h2>
+                <p>Aprende los conceptos básicos y utiliza el sistema de control de versiones para la realización de tus Proyectos. </p>
+            </div>
+
+        </section>
+
+        <div class="container">
+            <div class="imagen-izquierda">
+              <img src="/Img/lenguajes.jpeg" alt="Imagen izquierda">
+            </div>
+            <img src="/Img/lineasdecodigo.jpeg" class="rounded mx-auto d-block" alt="lineasdecodigo
+            ">
+            <div class="imagen-derecha">
+              <img src="/Img/imagen inicio.png" alt="Imagen derecha">
+            </div>
+          </div>
+        
+            
+        <section class="container" id="contacto">
+            <form action="" class="formulario">
+                <h1 class="formulario__titulo">Contáctenos</h1>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Nombres</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Correo</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Teléfono</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Mensaje</label>
+                <input type="submit" class="formulario__submit" value="Enviar Mensaje">
+              </form>
+        </section>
+    </main>
+    
+        
+       <section class="comment-section" id="comentarios">
+        <div class="comment-form">
+            <h2>Déjanos tu comentario</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+        </div>
+       </section>
+
+       <!-- seccion footer -->
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D">Twitter</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+        </div>
+        <p>&copy; 2023 Cursos de Programación Inicial-PamBack</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
