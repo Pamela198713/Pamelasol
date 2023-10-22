@@ -7,10 +7,11 @@ body {
  
   p {
     line-height: 20px;
+    text-align: center;
   }
   
 }
-header{
+.header {
   height: 350px;
   background-color: #f05252;
   color: #1f1e1e;
@@ -20,7 +21,7 @@ header{
 }
 
 section {
-  padding: 4rem 2rem;
+  padding: 2rem;
 }
 
 nav ul{
@@ -29,9 +30,9 @@ nav ul{
   justify-content: center;
   background-color: #f03c3c;
   padding: 25px;
-  margin-top: 20px;
+  margin-top: 50px;
  
-   
+  
 }
 
 nav li {
@@ -44,7 +45,7 @@ nav a {
 }
 
 main {
-  padding: 50px;
+  padding: 10px ;
 }
 
   
@@ -54,19 +55,19 @@ main {
   color: #160000;
   text-align: center;
   font-size: 2rem;
-    
-  
-  }
-  
-  /* Estilo para el texto del párrafo */
+  margin-bottom: 50px;
+ 
+}
+
+
 .nosotros p {
   font-size: 16px;
   color: #140101;
   font-size: 1rem;
   text-align: center;
-    
-   }
-  
+ 
+}
+
 .contenedor { display: flex;
   justify-content: center; 
   align-items: center; 
@@ -81,6 +82,10 @@ main {
   box-shadow: #160000;
 }
 
+.titulo-cursos {
+  margin-top:  50px; 
+  font-size: 2rem;
+}
 
 .cursos {
   display: flex;
@@ -89,6 +94,7 @@ main {
   line-height: 1.9;
   text-align: center;
   margin-top: 30px;
+
   
 }
 
@@ -98,6 +104,7 @@ main {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
+  
   
   }
 
@@ -126,8 +133,29 @@ main {
 }
 
 .imagen {
-  width: 50%;
-  box-shadow: #e44b4bed;
+  width: 500px;
+  height: 400px;
+  box-shadow: 0 0 20px 1px rgb(247, 3, 3);
+}
+
+.imagen-izquierda {
+  width: 342px;
+  height: 180px;
+  box-shadow: 0 0 20px 1px rgb(247, 3, 3);
+}
+
+.imagen-derecha {
+  width: 300px;
+  height: 170px;
+  box-shadow: 0 0 20px 1px rgb(247, 3, 3);
+
+}
+
+.imagen-center {
+  width: 225px;
+  height: 180px;
+  box-shadow: 0 0 20px 1px rgb(247, 3, 3);
+
 }
 
 
