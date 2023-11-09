@@ -8,7 +8,7 @@
 
 El desarrollo web es una de las áreas de la programación con mayor demanda en el mercado laboral actual. Por ello, existe un creciente interés por capacitarse en esta área.
 
-##Objetivo
+## Objetivo
 
 El objetivo del proyecto es crear una página web para el curso de desarrollo web inicial. Esta página web proporcionará información sobre el curso, así como recursos para los estudiantes.
 
