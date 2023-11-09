@@ -20,7 +20,7 @@ El propósito de la página web es proporcionar a los estudiantes una forma fác
 
 El destinatario de la página web son los estudiantes que estén interesados en aprender desarrollo web.
 
-## Destinatario
+## Funcionalidad
 
 La página web tendrá las siguientes funcionalidades:
 
