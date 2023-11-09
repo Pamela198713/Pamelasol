@@ -1,3 +1,9 @@
+
+
+![image](https://github.com/Pamela198713/Pamelasol/assets/106390254/bd0c8d17-c9a0-48fa-abad-5bd12469967c)
+
+
+
 Contexto
 
 El desarrollo web es una de las áreas de la programación con mayor demanda en el mercado laboral actual. Por ello, existe un creciente interés por capacitarse en esta área.
@@ -32,27 +38,12 @@ Licencia de seguridad
 
 La página web utilizará el protocolo HTTPS para garantizar la seguridad de los datos de los usuarios.
 
-Ejemplo de contenido
-
 La página web incluirá el siguiente contenido:
 
 Información sobre el curso
 Título del curso
-Descripción del curso
-Objetivos del curso
-Temario del curso
-Requisitos del curso
-Recursos para los estudiantes
-Tutoriales
-Ejemplos de código
-Ejercicios
-Foros de discusión
 Foro general
-Foros por tema
+Formulario de contacto
 Recomendaciones
 
-Para mejorar la calidad de la página web, se recomienda incluir los siguientes elementos:
 
-Videos explicativos
-Materiales descargables
-Certificado de finalización
